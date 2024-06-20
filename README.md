@@ -1,8 +1,8 @@
 # Keyboards
 
 QMK configuration and code for the following keyboards:
-- [planck](./planck/README.md)
-_ [totem](./totem/README.md)
+  - [planck](./planck/README.md)
+  - [totem](./totem/README.md)
 
 # Installation
 
