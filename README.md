@@ -1,8 +1,9 @@
 # Keyboards
 
 QMK configuration and code for the following keyboards:
-  - [planck](./planck/README.md)
-  - [totem](./totem/README.md)
+  - [Planck](./planck/README.md)
+  - [Totem](./totem/README.md)
+  - [Voyager](./voyager/README.md)
 
 # Installation
 
@@ -36,4 +37,14 @@ Use the [Makefile](./totem/Makefile) found in the totem directory. The [Totem ke
 cd ./totem
 make clone
 make build
+```
+
+## Voyager
+
+The Voyager depends on [ZSA's QMK fork](https://github.com/zsa/qmk_firmware). To build it, you need to clone the repository using the following commands.
+
+```bash
+cd voyager
+git submodule update
+make voyager:ireydiak
 ```
